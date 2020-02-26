@@ -1,5 +1,5 @@
 l = list(input('Введите произвольное число или слово: '))
-print(l)
+for i in range(1, len(l), 2):
+    l[i-1], l[i] = l[i], l[i-1]
 
-l[0], l[1], l[2], l[3], l[4], l[5] = l[1], l[0], l[3], l[2], l[5], l[4]
 print(l)
