@@ -4,3 +4,10 @@ def person(name, surname, year, city, email, tel):
 
 
 person(name='Кристина', surname='Иванова', city='Нью-Йорк', email='newmail.com', tel=7339000, year=1990)
+
+
+def personal_info(**kwargs):
+    return kwargs
+
+
+print(personal_info(name=input("Enter your name: "), surname=input("Enter Your surname: ")))
