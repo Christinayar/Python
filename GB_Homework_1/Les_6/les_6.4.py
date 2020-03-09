@@ -73,5 +73,7 @@ print(mazda.show_speed() + '\n')
 print(aston.show_speed() + '\n')
 print(ford.show_speed() + '\n')
 print(peugeot.show_speed() + '\n')
+print(ford.police() + '\n')
 
-print(f'{peugeot.go()} from City,then {mazda.turn_right()}, and  {peugeot.stop()} immediately')
+
+print(f'{peugeot.go()} from City,then {mazda.turn_right()}, and {peugeot.stop()} immediately')
