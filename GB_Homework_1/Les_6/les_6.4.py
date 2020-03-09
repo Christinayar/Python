@@ -20,7 +20,7 @@ class Car:
 
     def show_speed(self):
         return f'Current speed {self.name} is {self.speed}'
-    
+
     def police(self):
         if self.is_police:
             return f'{self.name} is from police department'
@@ -60,7 +60,7 @@ class WorkCar(Car):
 class PoliceCar(Car):
     def __init__(self, speed, color, name):
         super().__init__(speed, color, name, True)
-        
+
 
 #Cars
 mazda = TownCar(60, 'White', 'Mazda')
@@ -74,6 +74,8 @@ print(aston.show_speed() + '\n')
 print(ford.show_speed() + '\n')
 print(peugeot.show_speed() + '\n')
 print(ford.police() + '\n')
+print(aston.police() + '\n')
+
 
 
 print(f'{peugeot.go()} from City,then {mazda.turn_right()}, and {peugeot.stop()} immediately')
