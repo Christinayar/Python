@@ -60,13 +60,7 @@ class PoliceCar(Car):
             return f'{self.name} is from police department'
         else:
             return f'{self.name} is not from police department'
-
-
-# print(ford.name, ford.color, ford.speed, ford.is_police)
-# print(ford.go(), ford.turn('City'), ford.stop())
-# sport = SportCar('Ford', 180, 'red')
-# work2 = WorkCar('Audi', 90, 'white', False)
-# police = PoliceCar('Ford', 180, 'red')
+        
 
 #Cars
 mazda = TownCar(60, 'White', 'Mazda')
@@ -81,5 +75,3 @@ print(ford.show_speed() + '\n')
 print(peugeot.show_speed() + '\n')
 
 print(f'{peugeot.go()} from City,then {mazda.turn_right()}, and  {peugeot.stop()} immediately')
-
-
