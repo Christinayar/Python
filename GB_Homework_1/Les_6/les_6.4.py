@@ -20,6 +20,12 @@ class Car:
 
     def show_speed(self):
         return f'Current speed {self.name} is {self.speed}'
+    
+    def police(self):
+        if self.is_police:
+            return f'{self.name} is from police department'
+        else:
+            return f'{self.name} is not from police department'
 
 
 class TownCar(Car):
@@ -54,12 +60,6 @@ class WorkCar(Car):
 class PoliceCar(Car):
     def __init__(self, speed, color, name):
         super().__init__(speed, color, name, True)
-
-    def police(self):
-        if self.is_police:
-            return f'{self.name} is from police department'
-        else:
-            return f'{self.name} is not from police department'
         
 
 #Cars
