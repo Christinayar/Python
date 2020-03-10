@@ -39,3 +39,22 @@ class TrafficLight:
 
 traffic = TrafficLight()
 traffic.running()
+
+#Var3-------------------------------
+
+
+class TrafficLight:
+    __colors = 'green'
+
+    def running(self):
+        while True:
+            print('red')
+            sleep(7)
+            print('yellow')
+            sleep(2)
+            print('green')
+            sleep(7)
+
+
+traffic = TrafficLight()
+traffic.running()
