@@ -1,0 +1,93 @@
+Merge branch 'Homework'
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	renamed:    GB_Homework_1/Les_1/les1_1.py -> GB Python Homework/Les_1/les1_1.py
+#	renamed:    GB_Homework_1/Les_1/les1_2.py -> GB Python Homework/Les_1/les1_2.py
+#	renamed:    GB_Homework_1/Les_1/les1_3.py -> GB Python Homework/Les_1/les1_3.py
+#	renamed:    GB_Homework_1/Les_1/les1_4.py -> GB Python Homework/Les_1/les1_4.py
+#	renamed:    GB_Homework_1/Les_1/les1_5.py -> GB Python Homework/Les_1/les1_5.py
+#	renamed:    GB_Homework_1/Les_1/les1_6.py -> GB Python Homework/Les_1/les1_6.py
+#	renamed:    GB_Homework_1/Les_2/les2_1.py -> GB Python Homework/Les_2/les2_1.py
+#	renamed:    GB_Homework_1/Les_2/les2_2.py -> GB Python Homework/Les_2/les2_2.py
+#	renamed:    GB_Homework_1/Les_2/les2_3.py -> GB Python Homework/Les_2/les2_3.py
+#	renamed:    GB_Homework_1/Les_2/les2_4.py -> GB Python Homework/Les_2/les2_4.py
+#	renamed:    GB_Homework_1/Les_2/les2_5.py -> GB Python Homework/Les_2/les2_5.py
+#	renamed:    GB_Homework_1/Les_3/les_3.1.py -> GB Python Homework/Les_3/les_3.1.py
+#	renamed:    GB_Homework_1/Les_3/les_3.2.py -> GB Python Homework/Les_3/les_3.2.py
+#	renamed:    GB_Homework_1/Les_3/les_3.3.py -> GB Python Homework/Les_3/les_3.3.py
+#	renamed:    GB_Homework_1/Les_3/les_3.4.py -> GB Python Homework/Les_3/les_3.4.py
+#	renamed:    GB_Homework_1/Les_3/les_3.5.py -> GB Python Homework/Les_3/les_3.5.py
+#	renamed:    GB_Homework_1/Les_3/les_3.6.py -> GB Python Homework/Les_3/les_3.6.py
+#	new file:   GB Python Homework/Les_4/les_4.1.py
+#	new file:   GB Python Homework/Les_4/les_4.2.py
+#	new file:   GB Python Homework/Les_4/les_4.3.py
+#	new file:   GB Python Homework/Les_4/les_4.4.py
+#	new file:   GB Python Homework/Les_4/les_4.5.py
+#	new file:   GB Python Homework/Les_4/les_4.6.py
+#	new file:   GB Python Homework/Les_4/les_4.7.py
+#	new file:   GB Python Homework/Les_5/les_5.1.py
+#	new file:   GB Python Homework/Les_5/les_5.2.py
+#	new file:   GB Python Homework/Les_5/les_5.3.py
+#	new file:   GB Python Homework/Les_5/les_5.4.py
+#	new file:   GB Python Homework/Les_5/les_5.5.py
+#	new file:   GB Python Homework/Les_5/les_5.6.py
+#	new file:   GB Python Homework/Les_5/new.txt
+#	new file:   GB Python Homework/Les_5/programme.txt
+#	new file:   GB Python Homework/Les_5/salary.txt
+#	new file:   GB Python Homework/Les_6/les_6.1.py
+#	new file:   GB Python Homework/Les_6/les_6.2.py
+#	new file:   GB Python Homework/Les_6/les_6.3.py
+#	new file:   GB Python Homework/Les_6/les_6.4.py
+#	new file:   GB Python Homework/Les_6/les_6.5.py
+#	new file:   GB Python Homework/Les_7/les_7.1.py
+#	new file:   GB Python Homework/Les_7/les_7.2.py
+#	new file:   GB Python Homework/Les_8/les_8.1.py
+#	new file:   GB Python Homework/Les_8/les_8.2.py
+#	new file:   GB Python Homework/Les_8/les_8.3.py
+#	new file:   GB Python Homework/Les_8/les_8.4.py
+#	new file:   GB Python Homework/Les_8/les_8.7.py
+#	renamed:    GB_Python/File_manager/File_manager.py -> GB Python Video course/File_manager/File_manager.py
+#	renamed:    GB_Python/Game/Game_Ver1.py -> GB Python Video course/Game/Game_Ver1.py
+#	renamed:    GB_Python/Game/Game_Ver2.py -> GB Python Video course/Game/Game_Ver2.py
+#	renamed:    GB_Python/Game/Game_Ver3.py -> GB Python Video course/Game/Game_Ver3.py
+#	renamed:    GB_Python/Game/New.game.py -> GB Python Video course/Game/New.game.py
+#	renamed:    GB_Python/Lesson1/Lesson_1.1.py -> GB Python Video course/Lesson1/Lesson_1.1.py
+#	renamed:    GB_Python/Lesson1/Lesson_1.2.py -> GB Python Video course/Lesson1/Lesson_1.2.py
+#	renamed:    GB_Python/Lesson1/Lesson_1.3.py -> GB Python Video course/Lesson1/Lesson_1.3.py
+#	renamed:    GB_Python/Lesson2/Lesson_2.1.py -> GB Python Video course/Lesson2/Lesson_2.1.py
+#	renamed:    GB_Python/Lesson2/Lesson_2.2.py -> GB Python Video course/Lesson2/Lesson_2.2.py
+#	renamed:    GB_Python/Lesson2/Lesson_2.3.py -> GB Python Video course/Lesson2/Lesson_2.3.py
+#	renamed:    GB_Python/Lesson3/Lesson_3.1.py -> GB Python Video course/Lesson3/Lesson_3.1.py
+#	renamed:    GB_Python/Lesson3/Lesson_3.2.py -> GB Python Video course/Lesson3/Lesson_3.2.py
+#	renamed:    GB_Python/Lesson3/Lesson_3.3.py -> GB Python Video course/Lesson3/Lesson_3.3.py
+#	renamed:    GB_Python/Lesson3/Lesson_3.4.py -> GB Python Video course/Lesson3/Lesson_3.4.py
+#	renamed:    GB_Python/Lesson4/__pycache__/folders.cpython-37.pyc -> GB Python Video course/Lesson4/__pycache__/folders.cpython-37.pyc
+#	renamed:    GB_Python/Lesson4/__pycache__/randomlist.cpython-37.pyc -> GB Python Video course/Lesson4/__pycache__/randomlist.cpython-37.pyc
+#	renamed:    GB_Python/Lesson4/folders.py -> GB Python Video course/Lesson4/folders.py
+#	renamed:    GB_Python/Lesson4/main.py -> GB Python Video course/Lesson4/main.py
+#	renamed:    GB_Python/Lesson4/randomlist.py -> GB Python Video course/Lesson4/randomlist.py
+#	renamed:    GB_Python/Lesson5/group.json -> GB Python Video course/Lesson5/group.json
+#	renamed:    GB_Python/Lesson5/group.pickle -> GB Python Video course/Lesson5/group.pickle
+#	renamed:    GB_Python/Lesson5/music_deserialize.py -> GB Python Video course/Lesson5/music_deserialize.py
+#	renamed:    GB_Python/Lesson5/music_serialize.py -> GB Python Video course/Lesson5/music_serialize.py
+#	renamed:    GB_Python/Lesson6/Lesson_6.1.py -> GB Python Video course/Lesson6/Lesson_6.1.py
+#	renamed:    GB_Python/Lesson6/Lesson_6.2.py -> GB Python Video course/Lesson6/Lesson_6.2.py
+#	renamed:    GB_Python/Lesson6/Lesson_6.3.py -> GB Python Video course/Lesson6/Lesson_6.3.py
+#	renamed:    GB_Python/Lesson6/Lesson_6.4.py -> GB Python Video course/Lesson6/Lesson_6.4.py
+#	new file:   Stepik Programming on Python/les_1.py
+#	new file:   Stepik Programming on Python/les_2.py
+#
