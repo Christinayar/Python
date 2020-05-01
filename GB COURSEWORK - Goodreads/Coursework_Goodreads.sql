@@ -371,3 +371,167 @@ INSERT INTO books_info VALUES ('9', '320', '2017', 'Ozon', 'Эксмо'),
 ('3', '496', '2018', 'Ozon', 'Синдбад'),
 ('7', '512', '2019', 'Ozon', 'Синдбад'),
 ('8', '520', '2017', 'Ozon', 'Синдбад');
+
+
+/* 2. Cкрипты характерных выборок (включающие группировки, JOIN'ы, вложенные таблицы) */
+
+-- SELECT
+SELECT body FROM quotos;
+SELECT surname, body FROM authors;
+-- WHERE 
+SELECT * FROM profiles WHERE gender = 'M';
+SELECT * FROM profiles WHERE hometown = 'Москва';
+SELECT * FROM users_books WHERE status = 'currently reading';
+-- DISTINCT
+SELECT distinct publisher FROM books_info;
+-- BETWEEN
+SELECT * FROM profiles WHERE user_id BETWEEN 3 AND 7;
+SELECT * FROM profiles WHERE birthday BETWEEN '2000-01-01' AND '2010-01-01';
+-- ORDER BY 
+SELECT * FROM profiles WHERE hometown = 'Санкт-Петербург' order by user_id desc;
+SELECT distinct hometown FROM profiles ORDER BY hometown;
+SELECT user_id, SUBSTRING(birthday,1,3) AS decade FROM profiles ORDER BY decade;
+-- LIKE
+SELECT  * FROM profiles WHERE hometown LIKE 'Мо%';
+SELECT  * FROM profiles WHERE hometown NOT LIKE 'Мо%';
+SELECT * FROM profiles WHERE birthday LIKE '19%';
+-- RAND
+SELECT email FROM users ORDER BY RAND() LIMIT 1;
+SELECT body FROM quotos ORDER BY RAND() LIMIT 1;
+-- GROUP BY
+SELECT publisher FROM books_info GROUP BY publisher;
+SELECT hometown FROM profiles GROUP BY hometown;
+-- COUNT
+SELECT COUNT(user_id) from profiles;
+SELECT COUNT(*), SUBSTRING(birthday,1,3) AS decade FROM profiles GROUP BY decade ORDER BY decade desc;
+-- HAVING
+SELECT * FROM profiles HAVING birthday > '2000-01-01';
+SELECT * FROM books_info HAVING publisher = 'АСТ';
+
+-- UNION
+SELECT * FROM photos 
+UNION 
+SELECT * FROM covers;
+
+SELECT body as description FROM books
+UNION
+SELECT body from authors;
+
+-- Вложенные таблицы
+SELECT
+  book_id, body 
+FROM 
+  quotos 
+WHERE
+  book_id = (SELECT id from books WHERE title = 'Ноmo Deus. Краткая история будущего');
+
+SELECT
+ body,
+ (SELECT title from books WHERE id = book_id) as 'Book name'
+FROM 
+  quotos;
+  
+-- JOIN'ы
+SELECT books.title, genres.type FROM genres JOIN books;
+  
+SELECT 
+  p.hometown, u.firstname, u.surname 
+FROM 
+  profiles as p 
+JOIN 
+  users as u
+ON u.id = p.user_id;
+
+SELECT
+ *
+FROM 
+  genres as fst
+JOIN
+  genres as snd
+USING (id);
+
+SELECT 
+	firstname, surname, email, phone, gender, birthday, hometown
+  FROM profiles
+    JOIN users ON users.id = profiles.user_id
+  WHERE users.id = 1;
+  
+SELECT m.body as 'Cообщение', u.firstname, u.surname, m.created_at
+  FROM messages as m
+    JOIN users as u ON u.id = m.to_user_id
+  WHERE u.id = 2;
+  
+  SELECT m.body as 'Cообщение', u.firstname, u.surname, m.created_at
+  FROM messages as m
+    JOIN users as u ON u.id = m.from_user_id
+  WHERE u.id = 2;
+  
+  SELECT firstname, surname, COUNT(*) AS friends
+  FROM users
+    JOIN friend_requested ON (users.id = friend_requested.from_user_id or users.id = friend_requested.to_user_id)
+  WHERE friend_requested.status = 'approved'
+  GROUP BY users.id;
+  
+  SELECT  u.firstname, u.surname, COUNT(*) AS total_friends
+  FROM users as u
+  JOIN friend_requested as f ON u.id = f.to_user_id and f.from_user_id
+  WHERE f.status = 'approved'
+  GROUP BY u.id;
+  
+   SELECT  firstname, middlename, surname, COUNT(*) AS total_friends
+  FROM users as u
+  JOIN friend_requested as f ON u.id = f.to_user_id and f.from_user_id
+  WHERE f.status = 'unfriended'
+  GROUP BY u.id;
+  
+  /* 3. Представления (минимум 2), хранимые процедуры / триггеры */
+  -- Переменные
+  SELECT @month := NOW() - INTERVAL 5 MONTH;
+  SELECT CURDATE(), @month;
+  
+  SELECT @title := title FROM books;
+  
+  -- Представления
+  CREATE VIEW friends AS SELECT firstname, middlename, surname, COUNT(*) AS total_friends
+  FROM users as u
+  JOIN friend_requested as f ON u.id = f.to_user_id and f.from_user_id
+  WHERE f.status = 'unfriended'
+  GROUP BY u.id;
+  
+  SELECT * FROM friends;
+  
+CREATE VIEW book_stats AS SELECT firstname, surname, COUNT(*) AS total_books
+  FROM users 
+    JOIN users_books ON users.id = users_books.user_id
+	  GROUP BY users.id;
+      
+ SELECT * FROM book_stats;
+ 
+ SHOW TABLES;
+ 
+DROP VIEW IF EXISTS friends, book_stats;
+
+-- Хранимые процедуры
+SHOW PROCEDURE STATUS;
+
+DELIMITER //
+CREATE PROCEDURE test ()
+BEGIN 
+  SELECT VERSION();
+END //
+DELIMITER ;
+
+CALL test();
+SHOW CREATE PROCEDURE test;
+
+-- Триггеры
+DELIMITER //
+CREATE TRIGGER user_count AFTER INSERT ON users
+FOR EACH ROW
+BEGIN 
+  SELECT COUNT(*) INTO @total FROM users;
+END //
+
+INSERT INTO users VALUES ('12', 'Maria', 'Vasilievna', 'Petrova', 'petrova1@mail.ru', '8925330020')//
+SELECT * FROM users;
+SELECT @total//
