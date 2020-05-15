@@ -30,3 +30,9 @@ def modify_list(l):
             l[i] //= 2
 
 # 4-------------------------------------------------------
+def update_dictionary(d, key, value):
+    if key in d:
+        d[key].append(value)
+    else:
+        if 2*key not in d : d[2*key] = []
+        update_dictionary(d, 2*key, value)
