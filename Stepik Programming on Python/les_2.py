@@ -229,3 +229,13 @@ for i in range(len(a)):
     for j in range(len(a[i])):
         print(int(a[i - 1][j]) + int(a[i - len(a) + 1][j]) + int(a[i][j - 1]) + int(a[i][j - len(a[i]) + 1]), end=" ")
     print()
+
+# 18-------------------------------------------------------
+
+n = int(input())
+a = []
+i = 0
+while len(a) < n:
+    a += [i] * i
+    i += 1
+print(*a[:n])
