@@ -1,1 +1,1 @@
-Выполненные упражнения Python3
+Упражнения по Python3 из Geekbrains / Stepik
