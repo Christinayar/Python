@@ -1,2 +1,0 @@
-# Sql
-Shop Database
