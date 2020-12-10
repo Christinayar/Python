@@ -1,4 +1,4 @@
-Упражнения по Python3 из Geekbrains / Stepik
+Упражнения по Python3 из Geekbrains, Stepik
 
 
 Stepik - Программирование на Python (Bioinformatics Institute)
