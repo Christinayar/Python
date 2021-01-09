@@ -1,4 +1,4 @@
-# Stepik. Упражнения Python3 :woman_technologist:medium_skin_tone: 👩🏽‍💻
+# Stepik. Упражнения Python3 :woman_technologist_medium_skin_tone: 👩🏽‍💻
 
 
 ### Программирование на Python. Bioinformatics Institute
