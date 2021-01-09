@@ -5,6 +5,9 @@
 - [x] 1. Операторы. Переменные. Типы данных. Условия
 - [x] 2. Циклы. Строки. Списки
 - [x] 3. Функции. Словари. Интерпретатор. Файлы. Модули
+
+![Alt text](/https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate-bioinformatics.pdf?raw=true "Optional Title")
+
 ***
 ### "Поколение Python". Курс для начинающих
 - [x] *1. Ввод-вывод данных*
