@@ -19,12 +19,10 @@
 - [ ] 7. Функции
 - [ ] 8. Работа над мини-проектом
 
-***
 Сертификат Bioinformatics Institute | Сертификат Школа Begeek
 ------------ | -------------
 <img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate-bioinformatics.jpg" width="400"> | <img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate.jpg?raw=true" width="400">
 
-***
 ***
 # Geekbrains 📚
 
@@ -49,6 +47,5 @@
 - [x] 7. ООП. Продвинутый уровень
 - [x] 8. ООП. Полезные дополнения
 
-***
 Сертификат 1  | Сертификат 2 
 ------------ | -------------
