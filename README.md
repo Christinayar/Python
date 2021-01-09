@@ -1,4 +1,4 @@
-# Stepik. Упражнения Python3 👩🏽‍💻
+# Stepik 👩🏽‍💻
 
 
 ### [Программирование на Python. Bioinformatics Institute](https://stepik.org/course/67/info)
@@ -24,7 +24,7 @@
 `8. Работа над мини-проектом`
 ***
 ***
-# Geekbrains. Упражнения Python3 
+# Geekbrains 👩🏽‍💻
 
 ### Видеокурс. Основы языка Python
 `1. Введение в Python`
