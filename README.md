@@ -20,7 +20,7 @@
 - [x] 6. Списки
 - [ ] 7. Функции
 - [ ] 8. Работа над мини-проектом
-<img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate.jpg" width="450">
+<img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate.jpg?raw=true" width="450">
 
 ***
 ***
@@ -47,7 +47,7 @@
 - [x] 7. ООП. Продвинутый уровень
 - [x] 8. ООП. Полезные дополнения
 
-![Geekbrains](https://geekbrains.ru/go/BDGXkl)
+![Geekbrains](https://geekbrains.ru/certificates/737615?439e0006c5356297b64eb7cbe34f5997)
 
 <img src= "https://geekbrains.ru/go/BDGXkl" width="550">
 
