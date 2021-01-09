@@ -6,7 +6,6 @@
 - [x] 1. Операторы. Переменные. Типы данных. Условия
 - [x] 2. Циклы. Строки. Списки
 - [x] 3. Функции. Словари. Интерпретатор. Файлы. Модули
-<img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate-bioinformatics.jpg" width="400">
 
 ***
 ### ["Поколение Python": курс для начинающих. Школа Begeek](https://stepik.org/course/58852/info) 📗
@@ -19,9 +18,8 @@
 - [x] 6. Списки
 - [ ] 7. Функции
 - [ ] 8. Работа над мини-проектом
-<img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate.jpg?raw=true" width="400">
 
-Сертификат 1 | Сертификат 2
+Сертификат Bioinformatics Institute | Сертификат Школа Begeek
 ------------ | -------------
 <img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate-bioinformatics.jpg" width="400"> | <img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate.jpg?raw=true" width="400">
 
