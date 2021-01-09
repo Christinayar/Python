@@ -6,7 +6,11 @@
 - [x] 2. Циклы. Строки. Списки
 - [x] 3. Функции. Словари. Интерпретатор. Файлы. Модули
 
-<img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate-bioinformatics.jpg" width="400">
+<img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate-bioinformatics.jpg" width="500">
+<img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate-bioinformatics.jpg" width="450">
+<img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate-bioinformatics.jpg" width="550">
+<img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate-bioinformatics.jpg" width="600">
+
 
 
 ***
