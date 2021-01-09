@@ -7,6 +7,8 @@
 - [x] 3. Функции. Словари. Интерпретатор. Файлы. Модули
 
 ![Alt text](https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate-bioinformatics.jpg=100x200 "Optional Title")
+<img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate-bioinformatics.jpg" width="200">
+
 
 ***
 ### "Поколение Python". Курс для начинающих
