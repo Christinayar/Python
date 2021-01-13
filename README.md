@@ -41,7 +41,7 @@
 ***
 ### [Основы языка Python](https://geekbrains.ru/courses/13) 📘 
 #### Длительность - 1 месяц. Количество уроков - 8.
-Упражнения [тут](https://github.com/Christinayar/Python_Basics/tree/master/GU%20Python)
+#### Упражнения [тут](https://github.com/Christinayar/Python_Basics/tree/master/GU%20Python)
 - [x] 1. Знакомство с Python
 - [x] 2. Встроенные типы и операции с ними
 - [x] 3. Функции
