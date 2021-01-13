@@ -2,7 +2,7 @@
 
 
 ### [Программирование на Python. Bioinformatics Institute](https://stepik.org/course/67/info) 📕
-#### Задачи [тут](https://github.com/Christinayar/Python_Basics/tree/master/Stepik%20Python.%20Bioinformatics). Время прохождения курса: 22 часа
+#### Упражнения курса [тут](https://github.com/Christinayar/Python_Basics/tree/master/Stepik%20Python.%20Bioinformatics). Время прохождения курса: 22 часа
 - [x] 1. Операторы. Переменные. Типы данных. Условия
 - [x] 2. Циклы. Строки. Списки
 - [x] 3. Функции. Словари. Интерпретатор. Файлы. Модули
@@ -21,14 +21,14 @@
 
 Сертификат Bioinformatics Institute | Сертификат Школа Begeek
 ------------ | -------------
-<img src="https://github.com/Christinayar/Python_Basics/blob/master/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/stepik-certificate-bioinformatics.jpg" width="400"> | <img src="https://github.com/Christinayar/Python_Basics/blob/master/stepik-certificate.jpg?raw=true" width="400">
+<img src="https://github.com/Christinayar/Python_Basics/blob/master/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/stepik-certificate-bioinformatics.jpg?raw=true" width="400"> | <img src="https://github.com/Christinayar/Python_Basics/blob/master/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/stepik-certificate.jpg?raw=true" width="400">
 
 ***
 # Geekbrains 📚
 
 ### [Видеокурс. Основы языка Python](https://geekbrains.ru/courses/950) 📙 
-#### Длительность - 1 месяц. Количество уроков - 17. Время прохождения курса ~ 8 часов
-#### Задачи курса [тут](https://github.com/Christinayar/Python_Basics/tree/master/GU%20%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D1%83%D1%80%D1%81.%20Python)
+#### Длительность - 1 месяц. Количество уроков - 17.
+#### Задачи курса [тут](https://github.com/Christinayar/Python_Basics/tree/master/GU%20%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%D0%BA%D1%83%D1%80%D1%81.%20Python).  Время прохождения курса ~ 8 часов
 - [x] 1. Введение в Python
 - [x] 2. Встроенные типы и операции с ними
 - [x] 3. Практикум. Игра «Угадай число»
@@ -39,7 +39,8 @@
 - [x] 8. Практикум. Консольный файловый менеджер
 
 ***
-### Вебинарный формат. Основы языка Python 📘 https://geekbrains.ru/courses/13 
+### [Основы языка Python](https://geekbrains.ru/courses/13) 📘 
+####Длительность - 1 месяц. Количество уроков - 8.
 - [x] 1. Знакомство с Python
 - [x] 2. Встроенные типы и операции с ними
 - [x] 3. Функции
@@ -49,5 +50,6 @@
 - [x] 7. ООП. Продвинутый уровень
 - [x] 8. ООП. Полезные дополнения
 
-Сертификат 1  | Сертификат 2 
+Видеокурс. Основы языка Python | Основы языка Python 
 ------------ | -------------
+<img src="https://github.com/Christinayar/Python_Basics/blob/master/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/geekbrains_video_python.jpg?raw=true" width="400"> | <img src="https://github.com/Christinayar/Python_Basics/blob/master/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/geekbrains-vebinar_python.jpg?raw=true" width="400">
