@@ -45,7 +45,3 @@
 - [ ] 6. Списки
 - [ ] 7. Функции
 - [ ] 8. Работа над мини-проектом
-
-Сертификат Bioinformatics Institute | Сертификат Школа Begeek
------------- | -------------
-<img src="https://github.com/Christinayar/Python_Basics/blob/master/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/stepik-certificate-bioinformatics.jpg?raw=true" width="400"> | <img src="https://github.com/Christinayar/Python_Basics/blob/master/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/stepik-certificate.jpg?raw=true" width="400">
