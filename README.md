@@ -23,9 +23,6 @@
 - [x] 7. ООП. Продвинутый уровень
 - [x] 8. ООП. Полезные дополнения
 
-Видеокурс. Основы языка Python | Основы языка Python 
------------- | -------------
-<img src="https://github.com/Christinayar/Python_Basics/blob/master/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/geekbrains_video_python.jpg?raw=true" width="400"> | <img src="https://github.com/Christinayar/Python_Basics/blob/master/%D0%A1%D0%B5%D1%80%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D1%8B/geekbrains-vebinar_python.jpg?raw=true" width="400">
 
 ***
 
