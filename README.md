@@ -1,8 +1,7 @@
 # Geekbrains 📚
 
 ### [Видеокурс. Основы языка Python](https://geekbrains.ru/courses/950) 📙 
-#### [Упражнения тут](https://github.com/Christinayar/Python_Basics/tree/master/GU%20Videocourse.%20Python). Длительность - 1 месяц. Количество уроков - 17
-- [x] 1. Введение в Python
+#### [Read more](https://github.com/Christinayar/Python_Basics/tree/master/GU%20Videocourse.%20Python)
 - [x] 2. Встроенные типы и операции с ними
 - [x] 3. Практикум. Игра «Угадай число»
 - [x] 4. Функции
@@ -13,7 +12,7 @@
 
 ***
 ### [Основы языка Python](https://geekbrains.ru/courses/13) 📘 
-#### [Упражнения тут](https://github.com/Christinayar/Python_Basics/tree/master/GU%20Python). Длительность - 1 месяц. Количество уроков - 8
+#### [Read more](https://github.com/Christinayar/Python_Basics/tree/master/GU%20Python)
 - [x] 1. Знакомство с Python
 - [x] 2. Встроенные типы и операции с ними
 - [x] 3. Функции
@@ -29,14 +28,14 @@
 # Stepik 👩🏽‍💻
 
 ### [Программирование на Python. Bioinformatics Institute](https://stepik.org/course/67/info) 📕
-#### [Упражнения тут](https://github.com/Christinayar/Python_Basics/tree/master/Stepik%20Python.%20Bioinformatics). Время прохождения курса: 22 часа
+#### [Read more](https://github.com/Christinayar/Python_Basics/tree/master/Stepik%20Python.%20Bioinformatics)
 - [x] 1. Операторы. Переменные. Типы данных. Условия
 - [x] 2. Циклы. Строки. Списки
 - [ ] 3. Функции. Словари. Интерпретатор. Файлы. Модули
 
 ***
 ### ["Поколение Python": курс для начинающих. Школа Begeek](https://stepik.org/course/58852/info) 📗
-#### Время прохождения курса: 47 часов
+#### [Read more]()
 - [ ] 1. Ввод-вывод данных
 - [ ] 2. Условный оператор
 - [ ] 3. Типы данных
