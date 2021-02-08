@@ -2,7 +2,7 @@
 
 ### [Видеокурс. Основы языка Python](https://geekbrains.ru/courses/950) 📙 
 #### [Read more](https://github.com/Christinayar/Python_Basics/tree/master/GU%20Videocourse.%20Python)
-- [x] 1. [Введение в Python](https://github.com/Christinayar/Python/blob/master/GU%20Videocourse.%20Python/1.%20%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20Python.ipynb)
+- [x] 1. Введение в Python
 - [x] 2. Встроенные типы и операции с ними
 - [x] 3. Практикум. Игра «Угадай число»
 - [x] 4. Функции
