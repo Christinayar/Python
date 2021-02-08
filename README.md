@@ -1,7 +1,7 @@
 # Geekbrains 📚
 
 ### [Видеокурс. Основы языка Python](https://geekbrains.ru/courses/950) 📙 
-#### [Read more](https://github.com/Christinayar/Python_Basics/tree/master/GU%20Videocourse.%20Python)
+#### [Упражнения](https://github.com/Christinayar/Python_Basics/tree/master/GU%20Videocourse.%20Python)
 - [x] 1. Введение в Python
 - [x] 2. Встроенные типы и операции с ними
 - [x] 3. Практикум. Игра «Угадай число»
@@ -13,7 +13,7 @@
 
 ***
 ### [Основы языка Python](https://geekbrains.ru/courses/13) 📘 
-#### [Read more](https://github.com/Christinayar/Python_Basics/tree/master/GU%20Python)
+#### [Упражнения](https://github.com/Christinayar/Python_Basics/tree/master/GU%20Python)
 - [x] 1. Знакомство с Python
 - [x] 2. Встроенные типы и операции с ними
 - [x] 3. Функции
@@ -29,14 +29,14 @@
 # Stepik 👩🏽‍💻
 
 ### [Программирование на Python. Bioinformatics Institute](https://stepik.org/course/67/info) 📕
-#### [Read more](https://github.com/Christinayar/Python_Basics/tree/master/Stepik%20Python.%20Bioinformatics)
+#### [Упражнения](https://github.com/Christinayar/Python_Basics/tree/master/Stepik%20Python.%20Bioinformatics)
 - [x] 1. Операторы. Переменные. Типы данных. Условия
 - [x] 2. Циклы. Строки. Списки
-- [ ] 3. Функции. Словари. Интерпретатор. Файлы. Модули
+- [ ] 3. Функции. Словари. Файлы. Модули
 
 ***
 ### ["Поколение Python": курс для начинающих. Школа Begeek](https://stepik.org/course/58852/info) 📗
-#### [Read more]()
+#### [Упражнения]()
 - [ ] 1. Ввод-вывод данных
 - [ ] 2. Условный оператор
 - [ ] 3. Типы данных
