@@ -1,6 +1,6 @@
 # Geekbrains 
 ### [Основы реляционных баз данных. MySQL](https://geekbrains.ru/courses/690)
-#### [Упражнения - тут](https://github.com/Christinayar/MySQL_Basics/tree/master/GU%20Databases)
+#### [Упражнения тут](https://github.com/Christinayar/MySQL_Basics/tree/master/GU%20Databases)
 - [x] 1. Установка окружения. DDL - команды
 - [x] 2. Управление БД. Язык запросов SQL
 - [x] 3. Введение в проектирование БД
@@ -12,7 +12,7 @@
 
 ***
 ### [Основы баз данных. Видеокурс](https://geekbrains.ru/courses/196)
-#### [Упражнения - тут](https://github.com/Christinayar/MySQL_Basics/tree/master/GU%20Databases%20Videocourse)
+#### [Упражнения тут](https://github.com/Christinayar/MySQL_Basics/tree/master/GU%20Databases%20Videocourse)
 
 - [x] 1. Реляционные базы данных
 - [x] 2. Установка СУБД
