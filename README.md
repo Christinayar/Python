@@ -35,7 +35,7 @@
 
 ***
 ### ["Поколение Python": курс для начинающих. Школа Begeek](https://stepik.org/course/58852/info) 
-#### [Упражнения]()
+#### [Упражнения](https://github.com/Christina-Y1/Python/tree/master/Stepik%20Python.%20Begeek)
 - [x] 1. Ввод-вывод данных
 - [ ] 2. Условный оператор
 - [ ] 3. Типы данных
