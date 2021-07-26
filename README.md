@@ -37,7 +37,7 @@
 
 *** 
 ### [Интерактивный тренажер по SQL](https://stepik.org/course/63054/info)
-#### [Упражнения]()
+#### [Упражнения](https://github.com/christina-y1/MySQL/tree/master/Stepik%20SQL%20Trainer)
 - [x] 1. Основы реляционной модели и SQL
 - [x] 2. Запросы SQL к связанным таблицам
 - [x] 3. Базы данных и SQL запросы
